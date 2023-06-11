@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-06-10T12:54:01 IST" name="Suite" finished-at="2023-06-10T12:54:07 IST" duration-ms="5331">
+    <groups>
+    </groups>
+    <test started-at="2023-06-10T12:54:01 IST" name="Test" finished-at="2023-06-10T12:54:07 IST" duration-ms="5331">
+      <class name="com.test.GetRequest">
+        <test-method signature="get()[pri:0, instance:com.test.GetRequest@7ef82753]" started-at="2023-06-10T12:54:02 IST" name="get" finished-at="2023-06-10T12:54:06 IST" duration-ms="4036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- get -->
+      </class> <!-- com.test.GetRequest -->
+      <class name="com.test.Deserialization">
+        <test-method signature="JsonToPojo()[pri:0, instance:com.test.Deserialization@7bba5817]" started-at="2023-06-10T12:54:07 IST" name="JsonToPojo" finished-at="2023-06-10T12:54:07 IST" duration-ms="36" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- JsonToPojo -->
+      </class> <!-- com.test.Deserialization -->
+      <class name="com.test.Serialization">
+        <test-method signature="pojoToJson()[pri:0, instance:com.test.Serialization@712625fd]" started-at="2023-06-10T12:54:06 IST" name="pojoToJson" finished-at="2023-06-10T12:54:07 IST" duration-ms="228" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- pojoToJson -->
+      </class> <!-- com.test.Serialization -->
+      <class name="com.test.PostRequest">
+        <test-method signature="post()[pri:0, instance:com.test.PostRequest@33065d67]" started-at="2023-06-10T12:54:06 IST" name="post" finished-at="2023-06-10T12:54:06 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- post -->
+      </class> <!-- com.test.PostRequest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

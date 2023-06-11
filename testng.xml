@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.listener.Listener"/>
+	</listeners>
+  <test name="Test">
+	  <classes>
+		  <class name="com.test.GetRequest"/>
+		  <class name="com.test.PostRequest"/>
+		  <class name="com.test.Serialization"/>
+		  <class name="com.test.Deserialization"/>
+	  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
